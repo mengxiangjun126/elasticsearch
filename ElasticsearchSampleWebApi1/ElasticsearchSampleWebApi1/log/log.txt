@@ -1,0 +1,95 @@
+2020-09-08 14:32:35,700 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 14:32:35,723 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 14:32:35,727 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 14:32:46,644 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-HEAD-/User-180.2498ms
+2020-09-08 14:32:46,644 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 14:32:46,983 [4] ERROR ElasticsearchSampleWebApi1.ElasticSearchHelper - Request failed to execute. Call: Status code 400 from: PUT /User. ServerError: Type: invalid_index_name_exception Reason: "Invalid index name [User], must be lowercase"
+Elasticsearch.Net.ElasticsearchClientException: Request failed to execute. Call: Status code 400 from: PUT /User. ServerError: Type: invalid_index_name_exception Reason: "Invalid index name [User], must be lowercase"
+2020-09-08 14:32:46,985 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 14:33:56,989 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 14:33:57,004 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 14:33:57,006 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 14:34:07,606 [13] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-HEAD-/user-336.3103ms
+2020-09-08 14:34:07,607 [13] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 14:34:08,968 [13] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user-1303.655ms
+2020-09-08 14:34:08,969 [13] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 15:49:24,806 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 15:49:24,824 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 15:49:24,828 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 15:50:58,563 [5] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user/_mapping-1019.3746ms
+2020-09-08 15:50:58,564 [5] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 15:51:26,675 [7] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user/_mapping-160.4864ms
+2020-09-08 15:51:26,678 [7] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 15:56:17,180 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 15:56:17,195 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 15:56:17,200 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 15:57:16,012 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 15:57:16,051 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 15:57:16,056 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:00:43,203 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:00:43,228 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:00:43,232 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:05:14,830 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:05:14,857 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:05:14,861 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:06:40,161 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:06:40,207 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:06:40,213 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:06:54,521 [16] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user/_mapping-577.1545ms
+2020-09-08 16:06:54,522 [16] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 16:30:18,356 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:30:18,381 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:30:18,386 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:30:29,584 [4] ERROR ElasticsearchSampleWebApi1.ElasticSearchHelper - Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [icu-analysis] not found for field [testText]"
+Elasticsearch.Net.ElasticsearchClientException: Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [icu-analysis] not found for field [testText]"
+2020-09-08 16:30:29,589 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 16:31:15,890 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:31:15,922 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:31:15,925 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:32:48,772 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:32:48,798 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:32:48,801 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:33:47,710 [4] ERROR ElasticsearchSampleWebApi1.ElasticSearchHelper - Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [analysis-icu] not found for field [testText2]"
+Elasticsearch.Net.ElasticsearchClientException: Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [analysis-icu] not found for field [testText2]"
+2020-09-08 16:33:47,759 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 16:45:07,926 [19] ERROR ElasticsearchSampleWebApi1.ElasticSearchHelper - An error occurred while sending the request.
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 你的主机中的软件中止了一个已建立的连接。.
+ ---> System.Net.Sockets.SocketException (10053): 你的主机中的软件中止了一个已建立的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.FillAsync()
+   at System.Net.Http.HttpConnection.ReadNextResponseHeaderLineAsync(Boolean foldedHeadersAllowed)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Elasticsearch.Net.HttpConnection.Request[TResponse](RequestData requestData)
+2020-09-08 16:45:08,117 [19] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 16:45:38,340 [15] ERROR ElasticsearchSampleWebApi1.ElasticSearchHelper - Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [analysis-icu] not found for field [testText2]"
+Elasticsearch.Net.ElasticsearchClientException: Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [analysis-icu] not found for field [testText2]"
+2020-09-08 16:45:38,342 [15] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 16:51:29,231 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:51:29,257 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:51:29,259 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:51:46,752 [15] ERROR ElasticsearchSampleWebApi1.ElasticSearchHelper - Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [analysis-icu] not found for field [testText2]"
+Elasticsearch.Net.ElasticsearchClientException: Request failed to execute. Call: Status code 400 from: PUT /user/_mapping. ServerError: Type: mapper_parsing_exception Reason: "analyzer [analysis-icu] not found for field [testText2]"
+2020-09-08 16:51:46,759 [15] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 16:56:01,410 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 16:56:01,429 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 16:56:01,432 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 16:56:11,479 [15] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user/_mapping-662.5739ms
+2020-09-08 16:56:11,480 [15] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 17:02:47,408 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 17:02:47,433 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 17:02:47,435 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 17:03:43,245 [13] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user/_mapping-827.1812ms
+2020-09-08 17:03:43,260 [13] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 
+2020-09-08 17:05:43,965 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-09-08 17:05:44,003 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-09-08 17:05:44,008 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1
+2020-09-08 17:05:57,487 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-127.0.0.1-PUT-/user/_mapping-631.0465ms
+2020-09-08 17:05:57,487 [4] DEBUG ElasticsearchSampleWebApi1.ElasticSearchHelper - es-request-json - 

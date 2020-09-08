@@ -1,0 +1,78 @@
+2020-09-08 14:08:34.0322|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Elasticsearch.Net.Utf8Json.IJsonFormatterResolver Elasticsearch.Net.Utf8Json.Resolvers.DynamicObjectResolver.Create(System.Func`2<System.Reflection.MemberInfo,Elasticsearch.Net.Utf8Json.IJsonProperty>, System.Lazy`1<System.Func`2<System.String,System.String>>, Boolean)'.
+   at Nest.NestFormatterResolver.InnerResolver..ctor(IConnectionSettingsValues settings)
+   at Nest.NestFormatterResolver..ctor(IConnectionSettingsValues settings)
+   at Nest.ConnectionSettingsBase`1..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializerFactory, IPropertyMappingProvider propertyMappingProvider)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializer, IPropertyMappingProvider propertyMappingProvider)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializer)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool)
+   at Nest.ConnectionSettings..ctor(Uri uri)
+   at ElasticsearchSampleWebApi1.ElasticSearchHelper.GetClient() in D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1\ElasticSearchHelper.cs:line 95
+   at ElasticsearchSampleWebApi1.Controllers.SampleController1.CreateIndex() in D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1\Controllers\SampleController1.cs:line 22
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.VoidResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/SampleController1/%E5%88%9B%E5%BB%BA%E7%B4%A2%E5%BC%95|action: CreateIndex
+2020-09-08 14:08:42.3503|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Elasticsearch.Net.Utf8Json.IJsonFormatterResolver Elasticsearch.Net.Utf8Json.Resolvers.DynamicObjectResolver.Create(System.Func`2<System.Reflection.MemberInfo,Elasticsearch.Net.Utf8Json.IJsonProperty>, System.Lazy`1<System.Func`2<System.String,System.String>>, Boolean)'.
+   at Nest.NestFormatterResolver.InnerResolver..ctor(IConnectionSettingsValues settings)
+   at Nest.NestFormatterResolver..ctor(IConnectionSettingsValues settings)
+   at Nest.ConnectionSettingsBase`1..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializerFactory, IPropertyMappingProvider propertyMappingProvider)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializer, IPropertyMappingProvider propertyMappingProvider)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializer)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool)
+   at Nest.ConnectionSettings..ctor(Uri uri)
+   at ElasticsearchSampleWebApi1.ElasticSearchHelper.GetClient() in D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1\ElasticSearchHelper.cs:line 95
+   at ElasticsearchSampleWebApi1.Controllers.SampleController1.CreateIndex() in D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1\Controllers\SampleController1.cs:line 22
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.VoidResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/SampleController1/%E5%88%9B%E5%BB%BA%E7%B4%A2%E5%BC%95|action: CreateIndex
+2020-09-08 14:10:46.6491|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Elasticsearch.Net.Utf8Json.IJsonFormatterResolver Elasticsearch.Net.Utf8Json.Resolvers.DynamicObjectResolver.Create(System.Func`2<System.Reflection.MemberInfo,Elasticsearch.Net.Utf8Json.IJsonProperty>, System.Lazy`1<System.Func`2<System.String,System.String>>, Boolean)'.
+   at Nest.NestFormatterResolver.InnerResolver..ctor(IConnectionSettingsValues settings)
+   at Nest.NestFormatterResolver..ctor(IConnectionSettingsValues settings)
+   at Nest.ConnectionSettingsBase`1..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializerFactory, IPropertyMappingProvider propertyMappingProvider)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializer, IPropertyMappingProvider propertyMappingProvider)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool, IConnection connection, SourceSerializerFactory sourceSerializer)
+   at Nest.ConnectionSettings..ctor(IConnectionPool connectionPool)
+   at Nest.ConnectionSettings..ctor(Uri uri)
+   at ElasticsearchSampleWebApi1.ElasticSearchHelper.GetClient(String index) in D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1\ElasticSearchHelper.cs:line 95
+   at ElasticsearchSampleWebApi1.Controllers.SampleController1.CreateIndex() in D:\software\work\CRM\CODE\ES\Code\elasticsearch\ElasticsearchSampleWebApi1\ElasticsearchSampleWebApi1\Controllers\SampleController1.cs:line 22
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.VoidResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: http://localhost/api/SampleController1/%E5%88%9B%E5%BB%BA%E7%B4%A2%E5%BC%95|action: CreateIndex
